@@ -16,11 +16,19 @@ public class HomeController {
 	@Autowired
 	Service service;
 	
+	//연결 확인
 	@RequestMapping(value = "/java")
 	public String home(Model model) {
-		System.out.println("컨트롤러");
-		model.addAttribute("dual", service.connect());			
+		System.out.println("HomeController");
+		model.addAttribute("dual", service.connect());
 		return "home";
 	}
+	
+	//메인화면
+	@RequestMapping(value = "/main")
+	public String main(Model model) {		
+		return "main";
+	}
+			
 	
 }

@@ -1,1 +1,1 @@
-<% response.sendRedirect("home/java"); %>
+<% response.sendRedirect("main/main"); %>
