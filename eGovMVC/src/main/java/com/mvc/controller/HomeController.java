@@ -27,6 +27,7 @@ public class HomeController {
 	//메인화면
 	@RequestMapping(value = "/main")
 	public String main(Model model) {		
+		model.addAttribute("dual", service.connect()); //mySql 연결확인
 		return "main";
 	}
 			

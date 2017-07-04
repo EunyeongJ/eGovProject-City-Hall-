@@ -4,13 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>회원가입 성공</title>
+<title>Insert title here</title>
 </head>
 <body>
-
-성공!
-<a href="../main/main"> 메인으로 </a>
-
 
 </body>
 </html>

@@ -1,7 +1,10 @@
 package com.mvc.dao;
 
+import org.springframework.stereotype.Component;
+
 //회원가입 DTO
-public class MemberJoinDTO {
+@Component
+public class MemberDTO {
 	
 	private int mber_num;
 	private String mber_id;
@@ -42,6 +45,6 @@ public class MemberJoinDTO {
 	}
 	public void setMber_ps(String mber_ps) {
 		this.mber_ps = mber_ps;
-	}	
+	}
 	
 }

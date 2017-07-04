@@ -1,15 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>회원가입 성공</title>
+<title> 결재 게시판 </title>
 </head>
 <body>
 
-성공!
-<a href="../main/main"> 메인으로 </a>
+${sessionScope.mber_nm}님 <a href="../member/memberLogout"> 로그아웃 </a>
+<hr/>
+
 
 
 </body>
